@@ -6,6 +6,7 @@ import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
@@ -66,7 +67,7 @@ public class MainActivity extends AppCompatActivity implements
                     startChat(mAuth.getCurrentUser().getDisplayName(), mAuth.getCurrentUser().getEmail(), mAuth.getCurrentUser().getUid());
                 }
                 else {
-                    startChat("Falsches Passwort für", userNameText, userPasswordText);
+                    Toast.makeText(MainActivity.this, "Failed to login.", Toast.LENGTH_LONG).show();
                 }
             }
         });
