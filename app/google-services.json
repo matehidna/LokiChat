@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "289654798345",
+    "firebase_url": "https://lokichat-rtkr.firebaseio.com",
+    "project_id": "lokichat-rtkr",
+    "storage_bucket": "lokichat-rtkr.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:289654798345:android:073689f6d4408585",
+        "android_client_info": {
+          "package_name": "com.example.rtkr.lokichat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "289654798345-grkaqoka6ooap41trr88ineml5q2gm2e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rtkr.lokichat",
+            "certificate_hash": "4da7cb7ed737c55d643c7a144aed34e61025cef4"
+          }
+        },
+        {
+          "client_id": "289654798345-2rrd54hco6t1gfj9afo2vh1mi863tpve.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3kePyNGhut5wBuUSX8G3Yglq1WtF5pXI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "289654798345-2rrd54hco6t1gfj9afo2vh1mi863tpve.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

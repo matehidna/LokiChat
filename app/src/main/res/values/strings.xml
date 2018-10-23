@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">LokiChat</string>
+    <string name="iAm">Ich bin:</string>
+    <string name="newUser">Ich bin ein(e) Neuling(in)</string>
+    <string name="start">Start</string>
+    <string name="or">or</string>
+    <string name="name">Name</string>
+    <string name="password">Passwort</string>
+</resources>
